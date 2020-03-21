@@ -1,0 +1,25 @@
+{
+  "name": "test-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yo-gif12/test-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yo-gif12/test-a/issues"
+  },
+  "homepage": "https://github.com/yo-gif12/test-a#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
