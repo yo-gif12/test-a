@@ -1,7 +1,88 @@
-header{
-    background-color: green;
-    h1{
-font-size: 90px;
-color: gold;
-    }
+body {
+  .color {
+    height: 640px;
+    background: #13131e;
+  }
+  // .line1 {
+  //   top: 0px;
+  //   margin-left: 16px;
+  // }
+  // .w {
+  //   display: block;
+  //   margin-right: auto;
+  //   margin-left: auto;
+  //   .line2 {
+  //     margin-left: 134px;
+  //   }
+  //   .line3 {
+  //     margin-left: 15px;
+  //   }
+  // }
+  .works {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  //__________________________________________________
+  //__________________________________________________
+  // second scroll
+  //__________________________________________________
+  //__________________________________________________
+  .works__images {
+    height: 1800px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .works__image--ness {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--second {
+    left: 22vw;
+    position: absolute;
+    z-index: 1;
+  }
+  .works__image--tr {
+    left: 22vw;
+    z-index: 2;
+    position: absolute;
+  }
+  .works__image--fort {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--akin {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--moode {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--jarce {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--at {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+  .works__image--yoan {
+    width: 86vw;
+    margin-left: 7vw;
+  }
+}
+
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
